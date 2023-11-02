@@ -19,5 +19,5 @@ jobs:
         run: git remote add space https://Bilal777888:$HG@huggingface.co/spaces/Bilal777888/demo1
       - name: Push to hub
         env:
-          HF: ${{ secrets.HF }}
+          HF: ${{ secrets.HG }}
         run: git push --force https://Bilal777888:$HG@huggingface.co/spaces/Bilal777888/demo1 main
